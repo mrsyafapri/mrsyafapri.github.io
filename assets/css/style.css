@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #ffbebe;
+}
+
+#projects {
+    background-color: #ffbebe;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.lobster-fm {
+    font-family: 'Lobster', cursive;
+}
+
+.paficio-fm {
+    font-family: 'Pacifico', cursive;
+}
