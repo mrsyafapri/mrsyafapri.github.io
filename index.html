@@ -78,11 +78,11 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-right" data-aos-duration="1000">
                     <p>My name is Muhammad Rizki Syafapri. I come from Indragiri Hilir, Riau, Indonesia. I am currently
                         studying at Informatics Engineering UIN Suska Riau.</p>
                 </div>
-                <div class="col-md-5 mb-5">
+                <div class="col-md-5 mb-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     <p>I am currently focused on programming, especially web development. I am also very interested in
                         digital startups. Want to know more? Please contact me via <a href="#follow"
                             style="color: black;">Social Media</a> or <a href="#contact" style="color: black;">Contact
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 mb-5">
-                <div class="col-md-5 text-center">
+                <div class="col-md-5 text-center" data-aos="fade-down">
                     <img src="assets/img/web development.png" width="100" class="rounded-circle img-thumbnail"
                         alt="Web Development">
                     <h3>Web Development</h3>
@@ -109,7 +109,7 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5">
-                <div class="col-md-5 text-center">
+                <div class="col-md-5 text-center" data-aos="fade-up">
                     <img src="assets/svg/html.svg" class="me-3" width="50px" alt="HTML">
                     <img src="assets/svg/css.svg" class="me-3" width="50px" alt="CSS">
                     <img src="assets/svg/javascript.svg" class="me-3" width="50px" alt="Javascript">
@@ -143,7 +143,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500">
                         <img src="assets/img/bookshelf-api.jpg" class="card-img-top" alt="Bookshelf">
                         <div class="card-body text-center">
                             <h5 class="card-title">Bookshelf API</h5>
@@ -258,7 +258,10 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            once: true,
+            duration: 1500,
+        });
     </script>
 
     <!-- My Script -->
