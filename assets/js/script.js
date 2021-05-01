@@ -29,6 +29,40 @@ form.addEventListener('submit', e => {
 })
 // End:Contact Form
 
+// Start:AOS
+AOS.init({
+    once: true,
+    duration: 1000,
+});
+// End:AOS
+
+// Start:GSAP
+gsap.registerPlugin(TextPlugin);
+gsap.to('.lead', {
+    duration: 1.5,
+    delay: 1.5,
+    text: 'Student | Web Developer'
+})
+gsap.from('.jumbotron img', {
+    duration: 1,
+    rotateY: 360,
+    opacity: 0,
+});
+gsap.from('.navbar', {
+    duration: 1.5,
+    y: -150,
+    opacity: 0,
+    ease: 'bounce',
+});
+gsap.from('.display-4', {
+    duration: 1,
+    x: -50,
+    opacity: 0,
+    delay: 0.5,
+    ease: 'back',
+});
+// End:GSAP
+
 // Start:Footer Year
 const date = new Date();
 const footerYear = document.getElementById("footer-year");
