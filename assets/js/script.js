@@ -41,7 +41,7 @@ gsap.registerPlugin(TextPlugin);
 gsap.to('.lead', {
     duration: 1.5,
     delay: 1.5,
-    text: 'Student | Web Developer'
+    text: 'Student | Web Developer | GDSC Lead'
 })
 gsap.from('.jumbotron img', {
     duration: 1,
